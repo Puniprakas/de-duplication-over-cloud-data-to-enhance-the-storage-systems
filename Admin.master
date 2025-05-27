@@ -1,0 +1,75 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="Admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>De-Duplication Over Cloud Data to Enhance the Storage Systems</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="js/jquery-ui.js"></script>
+<script type="text/javascript" src="js/carouselScript.js"></script>
+<link href="css/carousel.css" rel="stylesheet" type="text/css">
+
+        <style type="text/css">
+            .style1
+            {
+                color: #FFFF66;                
+                font-size: 30px;
+                font-family: "Berlin Sans FB";
+                font-style: italic;
+            }
+           
+            </style>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+<div class="wrapper">
+  <div class="top-strip">
+    <div class="top-strip-cor1"></div>
+    <div class="top-strip-cor2"></div>
+    <div class="top-strip-cor3"></div>
+    <div class="top-strip-cor4"></div>
+    <div class="logo">
+      <h3 class="style1">De-Duplication Over Cloud Data to Enhance the Storage Systems</h3>
+    
+         <br />
+         <br />
+    </div>
+    
+    <div class="clearing"></div>
+    
+	
+    <div class="menu">
+      <ul>
+       <li><a href="AdminUsers.aspx">Home</a></li>
+        <li><a href="AdminUsers.aspx">View Users</a></li>
+        <li><a href="AdminFiles.aspx">View All Files</a></li>       
+        <li><a href="AdminLogin.aspx">LogOut</a></li>
+      </ul>
+    </div>
+    <div class="clearing"></div>
+  </div>
+  <div class="clearing"></div>
+  <!--- top strip div end -->
+  <!--- panel wrapper div end -->
+  <div class="page-wrapper">
+      <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+      </asp:ContentPlaceHolder>
+  </div>
+  <!--- page wrapper div end -->
+ <div class="footer-wrapper">
+ <div class="footer">
+ 
+ </div>
+ </div>
+ <!--- footer wrapper div end -->
+</div>
+<!--- wrapper div end -->
+    </form>
+</body>
+</html>
+
