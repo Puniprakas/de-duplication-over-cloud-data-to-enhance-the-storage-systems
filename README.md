@@ -34,8 +34,7 @@ Steps to Run the project
 **********************************************
 5) Now open Microsoft Visual Studio 2008. Now go to File-> Open -> Website. Now Select the Source code folder and click open.
 
-6)Now click the Run button or F5 to run the project. You can follow the Video file which is given, from this point.
+6)Now click the Run button or F5 to run the project.
 
-*****Created by JP INFOTECH*********
-*********www.jpinfotech.org*********
+
 
